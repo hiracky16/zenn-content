@@ -6,6 +6,11 @@ topics: [M1, Mac]
 published: true
 ---
 
+# 概要
+- US キーボード の M1 チップ搭載の MBA デビューしたけど Karabiner が使えなくて日本語⇔英数字の変換できなかった
+- Hammerspoon というツールを導入して Google 日本語入力にも変更できるようにした
+- 設定をコード管理もできるからお引越しに便利
+
 # 背景
 会社にて MBA を新しく買ってもらったところ、新品はもうすでに M1 チップ搭載のものしかなかったらしい。
 一抹の不安がありつつも了承して希望通り US キーボードで買ってもらったところ Karabiner が動かず日本語入力が満足にできなくなってしまった。
@@ -14,13 +19,12 @@ published: true
 
 https://github.com/pqrs-org/Karabiner-Elements/issues/2636
 
-仕方なく Karabiner 以外の解決策を探してたところ Hammerspoon にたどり着いて入力ソースの切り替えができるようにできた話。
+仕方なく Karabiner 以外の解決策を探してたところ Hammerspoon にたどり着いて入力ソースの切り替えができた話。
 
 # Hammerspoon について
 - Mac でショートカットの設定やキーバインドの変更ができるツール
 - Karabier は GUI ベースでキーバインドを変更できたが Hammerspoon は lua 言語でコードベースで記述していく
-
-コード管理できるは今後マシンが変わったときでも同じ設定が使える点便利だと思った。
+  - コード管理できるは今後マシンが変わったときでも同じ設定が使える点便利！
 
 # 使い方
 1. [ここ](https://github.com/Hammerspoon/hammerspoon/releases/tag/0.9.90) から zip でダウンロードする
@@ -33,7 +37,7 @@ https://github.com/pqrs-org/Karabiner-Elements/issues/2636
 https://mac-ra.com/hammerspoon-command-eikana02/
 
 参考にしたコードでは MBA にデフォルトで入っている入力ソースを使っていたが、
-筆者は普段 Google 日本語入力を使っているため、 下記にてそれらに切り替えていく。
+筆者は普段 Google 日本語入力を使っているため、 下記にそれらに切り替えていく。
 
 ## Google 日本語入力への対応
 
