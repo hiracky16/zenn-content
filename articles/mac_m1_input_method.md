@@ -3,7 +3,7 @@ title: "MBA（M1 チップ搭載） にて Hammerspoon を使って Google 日�
 emoji: "🐶"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [M1, Mac]
-published: false
+published: true
 ---
 
 # 背景
