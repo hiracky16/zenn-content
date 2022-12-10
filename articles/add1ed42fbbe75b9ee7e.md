@@ -1,5 +1,5 @@
 ---
-title: "Google Cloud で作るスターティングイレブン最適化パイプライン"
+title: "Google Cloud で作るサッカーのスターティングイレブン最適化パイプライン"
 emoji: "⚽"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GoogleCloud", "BigQuery", "CloudRun", "CloudWorkflows"]
